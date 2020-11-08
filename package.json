@@ -1,0 +1,24 @@
+{
+  "name": "revit",
+  "version": "1.0.0",
+  "description": "next-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hebotech/revit.git"
+  },
+  "keywords": [
+    "next",
+    "react",
+    "scss"
+  ],
+  "author": "IrfDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hebotech/revit/issues"
+  },
+  "homepage": "https://github.com/Hebotech/revit#readme"
+}
