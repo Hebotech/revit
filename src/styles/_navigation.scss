@@ -1,0 +1,11 @@
+.navbar {
+  .dropdown-menu {
+    min-width: 70vw;
+  }
+  .dropdown {
+    position: relative;
+    &.show {
+      min-width: 100%;
+    }
+  }
+}
