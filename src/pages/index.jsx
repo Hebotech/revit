@@ -1,11 +1,15 @@
-export default function() {
+import HeroHeader from "../components/Organisms/Home/HeroHeader";
+import Statement from "../components/Organisms/Home/Statement";
+import Cta from "../components/Organisms/Home/Cta";
+import BannerSection from "../components/Organisms/Home/BannerSection";
+
+export default function () {
   return (
       <div className="container-fluid home-page">
-        <div className="row m-0">
-          <div className="col-12 text-center">
-            <h1>Hello, how are you?</h1>
-          </div>
-        </div>
+        <HeroHeader/>
+        <Statement/>
+        <BannerSection/>
+        <Cta/>
       </div>
   );
 }
