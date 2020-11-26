@@ -1,4 +1,4 @@
-export default function ({ submenu }) {
+export default function SubmenuContent({ submenu }) {
   switch (submenu) {
     case style:
       return (

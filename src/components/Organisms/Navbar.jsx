@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import { RenderSwitch } from "../Atoms/Navigation/RenderSwitch";
 
-export default function () {
+export default function Navbar() {
 
   let [submenuStatus, setSubmenuStatus] = useState(false)
   let [submenuContent, setSubmenuContent] = useState()

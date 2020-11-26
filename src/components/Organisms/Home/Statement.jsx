@@ -1,4 +1,4 @@
-export default function() {
+export default function Statement() {
   return (
     <div className="row m-0 justify-content-center text-center">
       <div className="col-5">

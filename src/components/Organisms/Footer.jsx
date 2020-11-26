@@ -1,4 +1,4 @@
-export default function() {
+export default function Footer() {
   return (
     <footer className="container-fluid main-footer">
       <div className="row m-0">

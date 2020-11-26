@@ -1,4 +1,4 @@
-export default function() {
+export default function BannerSection() {
   return (
     <>
     <div className="row m-0 justify-content-start">
