@@ -30,6 +30,7 @@
     "next-env": "^1.1.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-youtube-background": "^1.0.0",
     "sass": "^1.29.0"
   }
 }

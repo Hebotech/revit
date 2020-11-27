@@ -1,18 +1,21 @@
 export default function HeroHeader() {
   return (
-    <div className="row -hero-header">
-      <div className="col-6 p-5 _information text-md-left">
+    <div className="row -hero-header align-items-center">
+      <div className="col-6 p-5 _information text-md-left justify-content-around align-items-center">
         <small className="__feature">Performance</small>
         <h1 className="__title">
-          Superior acceleration 
+          La calidad que ya conoces 
         </h1>
         <p className="__description">
-          Lorem ipsum dolor sit amet consectetur adipiscing elit bibendum magna, vestibulum cursus turpis ac gravida ut nisl neque, habitasse porttitor praesent tellus curae ligula nam arcu.
+         Tenemos la mejor calidad de productos, para que puedas hacer todo lo que quieras y para que podamos tener todo lo que sea necesario.
         </p>
       </div>
-      <div className="col-6">
-
+      <div className="col-6 __empty align-content-center align-items-center">
+        <span>
+          JACKET
+        </span>
       </div>
+      <img src="/images/hero-header.png" alt="Hero Header image" className="img-fluid __hero-image"/>
     </div>
   );
 }
