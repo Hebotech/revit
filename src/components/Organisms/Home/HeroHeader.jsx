@@ -11,11 +11,12 @@ export default function HeroHeader() {
         </p>
       </div>
       <div className="col-6 __empty align-content-center align-items-center">
+        <img src="/brand/white-logo.svg" className="img-fluid" alt=""/>
         <span>
-          JACKET
+          Revi't México
         </span>
       </div>
-      <img src="/images/hero-header.png" alt="Hero Header image" className="img-fluid __hero-image"/>
+
     </div>
   );
 }

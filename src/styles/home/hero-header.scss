@@ -2,14 +2,21 @@
   margin: none;
   position: relative;
   overflow: hidden;
+  background-image: url(/images/hero-headerr.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-attachment: scroll;
   ._information {
     padding: 20% 5% !important;
     color: white;
     background-image: linear-gradient(
       184deg,
       rgba(0, 0, 0, 0) 0%,
-      $complementary-color 100%
+      rgb(0, 0, 0) 100%
     );
+    //$complementary-color 100%
     :not(.__description) {
       text-transform: uppercase;
     }
@@ -17,22 +24,36 @@
       letter-spacing: 0.3em;
     }
   }
+  &:hover {
+    .__empty {
+      transition: 0.4s ease-out all;
+      opacity: 1;
+    }
+  }
 
   .__empty {
-    span {
-      font-size: 1000%;
-      font-weight: 900;
-      opacity: 0.2;
+    padding: 0 5%;
+    font-size: 900%;
+    font-weight: 900;
+    opacity: 0.5;
+    color: white;
+    line-height: 1em;
+    text-transform: uppercase;
+    transition: 0.7s ease-in all;
+
+    img {
+      max-width: 40%;
     }
   }
 
   .__hero-image {
     position: absolute;
-    max-width: 55em;
-    top: 5%;
+    max-width: 85em;
+    bottom: 50;
     margin: auto;
     left: 0;
     right: 0;
+    mix-blend-mode: soft-light;
     filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 0.256));
   }
 }
