@@ -6,8 +6,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
   background-attachment: scroll;
+
   ._information {
     padding: 20% 5% !important;
     color: white;
@@ -16,14 +16,21 @@
       rgba(0, 0, 0, 0) 0%,
       rgb(0, 0, 0) 100%
     );
-    //$complementary-color 100%
+
+    p,
+    .__feature {
+      font-family: $title-font;
+    }
+
     :not(.__description) {
       text-transform: uppercase;
     }
+
     .__feature {
       letter-spacing: 0.3em;
     }
   }
+
   &:hover {
     .__empty {
       transition: 0.4s ease-out all;
@@ -40,6 +47,10 @@
     line-height: 1em;
     text-transform: uppercase;
     transition: 0.7s ease-in all;
+
+    span {
+      font-family: $title-font;
+    }
 
     img {
       max-width: 40%;

@@ -1,6 +1,6 @@
 export default function HeroHeader() {
   return (
-    <div className="row -hero-header align-items-center">
+    <div className="row m-0 -hero-header align-items-center">
       <div className="col-6 p-5 _information text-md-left justify-content-around align-items-center">
         <small className="__feature">Performance</small>
         <h1 className="__title">
@@ -11,7 +11,7 @@ export default function HeroHeader() {
         </p>
       </div>
       <div className="col-6 __empty align-content-center align-items-center">
-        <img src="/brand/white-logo.svg" className="img-fluid" alt=""/>
+        <img src="/brand/white-logo.svg" className="img-fluid" alt="revit-logo"/>
         <span>
           Revi't México
         </span>

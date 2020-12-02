@@ -1,24 +1,23 @@
 export default function BannerSection() {
   return (
     <>
-    <div className="row m-0 justify-content-start">
-      <div className="col-6">
-         <span>
+    <div className="row m-0 justify-content-start banner-section">
+      <div className="col-md-4 col-12 --banner">
             <h3>
-              Discover our
+              Descubre
+               <br/>
                <strong>
-                Urban collection
+                la nueva colección
                </strong>
           </h3>
-            <p>
-              Incorporating functional features in fashionable yet fully protective outer shells for daily use.
+          <p>
+            La nueva colección trae los mejores productos de la marca Revi't sport que te ayudará a que puedas tener las mejores interacciones para que puedas disfrutarla
           </p>
             <button className="_main">
               Read More
           </button>
-        </span>
       </div>
-      </div>
+    </div>
     <div className="row m-0">
       <div className="col-6">
         <span>

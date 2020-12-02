@@ -5,7 +5,7 @@ import BannerSection from "../components/Organisms/Home/BannerSection";
 
 export default function index() {
   return (
-    <div className="container-fluid home-page">
+    <div className="container-fluid home-page p-0">
       <HeroHeader/>
       <Statement/>
       <BannerSection/>

@@ -1,17 +1,17 @@
 export default function Statement() {
   return (
-    <div className="row m-0 justify-content-center text-center">
-      <div className="col-5">
-        <h2>
-          EXPLORE <br/>
+    <div className="row justify-content-center text-center --statement">
+      <div className="col-md-8">
+        <h2 className="__title my-5">
+          EXPLORA <br/>
          <strong>
-          YOUR STYLE
+          LA NUEVA EXPERIENCIA
          </strong>
         </h2>
         <p>
-          Whether you’re a track day enthusiast, an avid adventurist or an urban commuter, you will find a wide range of products that are purpose built for your riding needs. Gear that not just lives up to standards and regulations, but that goes beyond that; the REV’IT! standard, whereby every product we bring to market is characterized by - and a result of - incorporating our core values: design, performance and innovation.
+         Revi't México tiene grandes sorpresas para ti, y es por eso que abrimos éste sitio web para poderte mantener informado de toda la información que tenemos para ti y que puedas conocer los nuevos arribos.
         </p>
       </div>
     </div>
   );
-}
+};

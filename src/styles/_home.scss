@@ -1,1 +1,44 @@
 @import 'home/hero-header';
+
+.home-page {
+  .--statement {
+    margin: 20% 0;
+
+    .__title {
+      font-weight: 500;
+    }
+
+    p {
+      font-style: italic;
+      font-size: 150%;
+      font-weight: 300;
+    }
+  }
+
+  //  Let's get started with the completion of the next time of the new project
+  .banner-section {
+    background-image: linear-gradient(
+        -90deg,
+        rgba(0, 0, 0, 0.041) 0%,
+        rgba(0, 0, 0, 0.52) 100%
+      ),
+      url(/images/banner/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+
+    div:nth-of-type(1) {
+      margin: 15% 0;
+    }
+
+    .--banner {
+      padding-left: 10%;
+      color: white;
+      h3 {
+        font-weight: 500;
+      }
+    }
+  }
+}

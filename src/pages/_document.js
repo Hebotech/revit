@@ -11,8 +11,7 @@ class MyDocument extends Document {
     return (
       <Html lang="es">
         <Head>
-          <link rel="stylesheet" href="https://use.typekit.net/gdb6ioy.css"/>
-
+          <link rel="stylesheet" href="https://use.typekit.net/gdb6ioy.css" />
         </Head>
         <body>
           <Main />
