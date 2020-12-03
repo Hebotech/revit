@@ -14,9 +14,11 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between px-5">
         <div>
-  <a className="navbar-brand" href="#">Navbar</a> 
+          <a className="navbar-brand" href="#">
+            <img width="200"  alt="" loading="lazy" className="navbar-brnd" src="/brand/full-logo-black.svg" />
+          </a> 
         </div>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>

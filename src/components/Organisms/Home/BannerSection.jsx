@@ -19,7 +19,7 @@ export default function BannerSection() {
       </div>
     </div>
     <div className="row m-0 split-banner-section justify-content-around">
-      <div className="col-6 --banner">
+      <div className="col-md-6 col-12 --banner">
         <span>
             <h3>
               Discover our
@@ -32,11 +32,11 @@ export default function BannerSection() {
               Incorporating functional features in fashionable yet fully protective outer shells for daily use.
           </p>
             <button className="_main">
-              Read More
+              Conocer Más
           </button>
         </span>
       </div>
-      <div className="col-6 --banner">
+      <div className="col-md-6 col-12 --banner">
          <span>
             <h3>
               Discover our
@@ -49,7 +49,7 @@ export default function BannerSection() {
               Incorporating functional features in fashionable yet fully protective outer shells for daily use.
           </p>
             <button className="_main">
-              Read More
+              Conocer Más
           </button>
         </span>
       </div>

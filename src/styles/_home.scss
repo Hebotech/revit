@@ -2,7 +2,7 @@
 
 .home-page {
   .--statement {
-    margin: 20% 0;
+    margin: 12% 0;
 
     .__title {
       font-weight: 500;
@@ -23,6 +23,8 @@
         rgba(0, 0, 0, 0.52) 100%
       ),
       url(/images/banner/1.jpg);
+    clip-path: polygon(0 0, 100% 14%, 100% 100%, 0% 100%);
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,6 +33,7 @@
 
     div:nth-of-type(1) {
       margin: 15% 0;
+      margin-top: 20%;
     }
     .--banner {
       padding-left: 10%;
@@ -43,6 +46,8 @@
     }
     p {
       font-family: $title-font;
+      font-weight: 400;
+      font-size: 120%;
     }
   }
 
@@ -51,9 +56,13 @@
     padding: 0;
     .--banner {
       background-size: cover;
-      background-position: center;
+      background-position: center 30%;
       background-repeat: no-repeat;
-      padding: 5%;
+      padding: 15% 7%;
+      @media screen and (min-width: 800px) {
+        padding: 10% 5%;
+        clip-path: unset;
+      }
     }
     .--banner:nth-of-type(1) {
       background-image: linear-gradient(
@@ -63,6 +72,10 @@
           rgba(0, 0, 0, 0.876) 100%
         ),
         url(/images/banner/2.jpg);
+
+      @media screen and (min-width: 800px) {
+        clip-path: unset;
+      }
     }
     .--banner:nth-of-type(2) {
       background-image: linear-gradient(
@@ -71,6 +84,10 @@
           rgba(0, 0, 0, 0.644) 100%
         ),
         url(/images/banner/3.jpg);
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 86%);
+      @media screen and (min-width: 800px) {
+        clip-path: unset;
+      }
     }
   }
 }
