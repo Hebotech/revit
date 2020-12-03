@@ -2,7 +2,7 @@
 
 .home-page {
   .--statement {
-    margin: 12% 0;
+    margin: 28% 0;
 
     .__title {
       font-weight: 500;
@@ -12,6 +12,9 @@
       font-style: italic;
       font-size: 150%;
       font-weight: 300;
+    }
+    @media screen and (min-width: 800px) {
+      margin: 12% 0;
     }
   }
 

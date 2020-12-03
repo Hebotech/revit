@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between px-5">
+      <nav className="navbar navbar-expand-lg navbar-light d-flex justify-content-between px-md-5 px-4 -main">
         <div>
           <a className="navbar-brand" href="#">
             <img width="200"  alt="" loading="lazy" className="navbar-brnd" src="/brand/full-logo-black.svg" />
@@ -40,7 +40,7 @@ export default function Navbar() {
     </ul>
   </div>
       </nav>
-{submenuStatus ? (<div className="container-fluid">
+{submenuStatus ? (<div className="container-fluid sub-menu">
           <div onMouseLeave={()=>setSubmenuStatus(false)}  className="row m-0">
           <RenderSwitch
             activeNav={submenuContent}

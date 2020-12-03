@@ -40,13 +40,13 @@
 
   .__empty {
     padding: 0 5%;
-    font-size: 900%;
     font-weight: 900;
     opacity: 0.5;
     color: white;
     line-height: 1em;
     text-transform: uppercase;
     transition: 0.7s ease-in all;
+    font-size: 500%;
 
     span {
       font-family: $title-font;
@@ -54,6 +54,9 @@
 
     img {
       max-width: 40%;
+    }
+    @media screen and (min-width: 800px) {
+      font-size: 900%;
     }
   }
 
