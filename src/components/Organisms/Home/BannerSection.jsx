@@ -1,8 +1,8 @@
 export default function BannerSection() {
   return (
     <>
-    <div className="row m-0 justify-content-start banner-section">
-      <div className="col-md-4 col-12 --banner">
+    <div className="row m-0 justify-content-start single-banner-section">
+      <div className="col-md-5 col-12 --banner">
             <h3>
               Descubre
                <br/>
@@ -10,7 +10,7 @@ export default function BannerSection() {
                 la nueva colección
                </strong>
           </h3>
-          <p>
+          <p className="my-5">
             La nueva colección trae los mejores productos de la marca Revi't sport que te ayudará a que puedas tener las mejores interacciones para que puedas disfrutarla
           </p>
             <button className="_main">
@@ -18,11 +18,12 @@ export default function BannerSection() {
           </button>
       </div>
     </div>
-    <div className="row m-0">
-      <div className="col-6">
+    <div className="row m-0 split-banner-section justify-content-around">
+      <div className="col-6 --banner">
         <span>
             <h3>
               Discover our
+               <br/>
                <strong>
                 Urban collection
                </strong>
@@ -35,10 +36,11 @@ export default function BannerSection() {
           </button>
         </span>
       </div>
-      <div className="col-6">
+      <div className="col-6 --banner">
          <span>
             <h3>
               Discover our
+               <br/>
                <strong>
                 Urban collection
                </strong>
