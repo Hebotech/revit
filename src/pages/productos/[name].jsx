@@ -87,7 +87,7 @@ export const getStaticProps = async ({ params }) => {
 }
 
 export async function getStaticPaths() {
-  let response = await fetch('http://apihebo.online/revit')
+  let response = await fetch('https://apihebo.online/revit')
   let { data: products } = await response.json()
   let paths = products.map(({slug}) => {
     return {
