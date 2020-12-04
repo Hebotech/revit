@@ -42,9 +42,11 @@ nav.navbar.-main {
   }
 }
 .sub-menu {
+  position: absolute;
+  z-index: 100;
   background-color: #f2f1f1;
   padding: 1% 2%;
-  animation: slideIn 0.4s ease-in-out forwards;
+  animation: slideIn 0.3s ease-in-out forwards;
   & > * {
     animation: slideUp 0.4s ease-in-out forwards;
   }
@@ -59,7 +61,7 @@ nav.navbar.-main {
 
 @keyframes slideUp {
   from {
-    transform: translateY(2em);
+    transform: translateY(1em);
     opacity: 0.5;
   }
 }

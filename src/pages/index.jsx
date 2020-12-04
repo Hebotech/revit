@@ -6,9 +6,9 @@ import BannerSection from "../components/Organisms/Home/BannerSection";
 export default function index({products}) {
   return (
     <div className="container-fluid home-page p-0">
-      {/* <pre>
+      <pre>
         {JSON.stringify(products, null, 2)}
-      </pre> */}
+      </pre>
 
       <HeroHeader />
       
@@ -24,7 +24,7 @@ export default function index({products}) {
 export const getStaticProps = async () => {
   console.log("Getting static props:")
   let response = await fetch('https://apihebo.online/revit')
-  let products = await response.json()
+  let {data: products} = await response.json()
   console.log(products)
 
 
