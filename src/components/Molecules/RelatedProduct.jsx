@@ -9,7 +9,7 @@ function RelatedProduct({ id }) {
     
     let bringProduct = async () => {
       try {
-        let response = await fetch(`http://localhost:9000/revit/product/${id}`)
+        let response = await fetch(`https://apihebo.online/revit/product/${id}`)
         let { data } = await response.json()
         setFetchData(data)
         setAsyncStatus('resolved')
