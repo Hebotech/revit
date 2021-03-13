@@ -1,0 +1,22 @@
+.product-listing {
+  .single-product {
+    ._img {
+      background-origin: 0, 0;
+      background-position: center, center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 25rem;
+      width: 100%;
+      transition: background-size ease-out 4s;
+    }
+    &:hover {
+      ._img {
+        transition: background-size ease-in 4s;
+        background-size: contain;
+      }
+    }
+    ._name {
+      color: $alpha-color;
+    }
+  }
+}

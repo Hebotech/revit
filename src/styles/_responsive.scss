@@ -76,6 +76,11 @@ p {
   font-weight: 400;
   font-family: $paragraph-font;
 }
+a > small {
+  font-family: $title-font;
+  color: $alpha-color;
+  font-weight: 900;
+}
 
 small,
 .text_small {
