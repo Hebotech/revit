@@ -54,12 +54,12 @@ export default function Navbar({ estilos, tipos }) {
             </li>
             <li onMouseEnter={() => handleClick('style')} className='nav-item'>
               <a className='nav-link' href='#'>
-                Productos
+                Estílos
               </a>
             </li>
             <li onMouseEnter={() => handleClick('type')} className='nav-item'>
               <a className='nav-link' href='#'>
-                Estílos
+                Productos
               </a>
             </li>
             <li
