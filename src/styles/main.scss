@@ -1,10 +1,12 @@
 @import 'bootstrap.min.css';
+@import 'colors';
 @import 'responsive';
 
 @import 'variables';
 @import 'navigation';
-@import 'colors';
 @import 'home';
+@import 'products';
+@import 'distribuidores';
 
 button._main {
   background-color: rgb(202, 0, 0);

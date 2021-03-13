@@ -1,0 +1,14 @@
+.distribuidores-view {
+  .card {
+    background-color: $alpha-color;
+    color: $background-color;
+
+    .card-link {
+      color: $alpha-color;
+      background-color: $background-color;
+      padding: 0.5rem 2rem;
+      border-radius: 10px;
+      margin: 2rem 4rem;
+    }
+  }
+}

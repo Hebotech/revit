@@ -14,3 +14,25 @@
   background-color: #000;
   color: white;
 }
+
+.sub-menu {
+  .-list {
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      list-style: none;
+      a {
+        color: black;
+      }
+    }
+  }
+}
+
+.breadcrumb {
+  background-color: $alpha-color;
+  color: white;
+  border-radius: 10px;
+  a {
+    color: white;
+  }
+}

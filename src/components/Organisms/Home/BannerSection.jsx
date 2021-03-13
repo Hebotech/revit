@@ -1,59 +1,66 @@
+import { useRouter } from 'next/router';
+
 export default function BannerSection() {
+  let router = useRouter();
   return (
     <>
-    <div className="row m-0 justify-content-start single-banner-section">
-      <div className="col-md-5 col-12 --banner">
-            <h3>
-              Descubre
-               <br/>
-               <strong>
-                la nueva colección
-               </strong>
+      <div className='row m-0 justify-content-start single-banner-section'>
+        <div className='col-md-5 col-12 --banner'>
+          <h3>
+            Descubre
+            <br />
+            <strong>la nueva colección</strong>
           </h3>
-          <p className="my-5">
-            La nueva colección trae los mejores productos de la marca Revi't sport que te ayudará a que puedas tener las mejores interacciones para que puedas disfrutarla
+          <p className='my-5'>
+            La nueva colección trae los mejores productos de la marca Revi't
+            sport que te ayudará a que puedas tener las mejores interacciones
+            para que puedas disfrutarla
           </p>
-            <button className="_main">
-              Read More
+          <button onClick={() => router.push('/todos')} className='_main'>
+            Ir ahora
           </button>
+        </div>
       </div>
-    </div>
-    <div className="row m-0 split-banner-section justify-content-around">
-      <div className="col-md-6 col-12 --banner">
-        <span>
+      <div className='row m-0 split-banner-section justify-content-around'>
+        <div className='col-md-6 col-12 --banner'>
+          <span>
             <h3>
-              Discover our
-               <br/>
-               <strong>
-                Urban collection
-               </strong>
-          </h3>
+              Descubre nuestra
+              <br />
+              <strong className='text-uppercase'>colección urbana</strong>
+            </h3>
             <p>
-              Incorporating functional features in fashionable yet fully protective outer shells for daily use.
-          </p>
-            <button className="_main">
-              Conocer Más
-          </button>
-        </span>
-      </div>
-      <div className="col-md-6 col-12 --banner">
-         <span>
+              Tenemos las mejores chamarras con los mejores materiales del
+              mercado
+            </p>
+            <button
+              onClick={() => router.push('/estilos/urbano')}
+              className='_main'
+            >
+              Ir ahora
+            </button>
+          </span>
+        </div>
+        <div className='col-md-6 col-12 --banner'>
+          <span>
             <h3>
-              Discover our
-               <br/>
-               <strong>
-                Urban collection
-               </strong>
-          </h3>
+              Enamórate de nuestros
+              <br />
+              <strong>MONO TRAJES</strong>
+            </h3>
             <p>
-              Incorporating functional features in fashionable yet fully protective outer shells for daily use.
-          </p>
-            <button className="_main">
-              Conocer Más
-          </button>
-        </span>
+              Contamos con los monotrajes de la mejor calidad, resistencia, para
+              convertir cada momento dentro de tu moto en tu favorito
+            </p>
+            <button
+              onClick={() => router.push('/tipos/monotraje')}
+              className='_main'
+            >
+              Ir ahora
+            </button>
+          </span>
+        </div>
       </div>
-    </div>
     </>
   );
 }
