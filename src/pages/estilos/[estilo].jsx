@@ -1,12 +1,19 @@
 import ProductListing from '../../components/Molecules/ProductListing';
 import Breadcrumb from '../../components/Molecules/Breadcrumb';
+import { NextSeo } from 'next-seo';
 
 const estilosView = ({ products, estilo }) => {
   return (
-    <div className='container-fluid'>
-      <Breadcrumb level='estilo' estilo={estilo} />
-      <ProductListing products={products} />
-    </div>
+    <>
+      <NextSeo
+        title={`${estilo} | REVI'T SPORT MÉXICO`}
+        description='La mejor marca premium de indumentaria para moto ahora en México'
+      />
+      <div className='container-fluid'>
+        <Breadcrumb level='estilo' estilo={estilo} />
+        <ProductListing products={products} />
+      </div>
+    </>
   );
 };
 
