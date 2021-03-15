@@ -3,7 +3,7 @@
     ._img {
       background-origin: 0, 0;
       background-position: center, center;
-      background-size: cover;
+      background-size: contain;
       background-repeat: no-repeat;
       height: 25rem;
       width: 100%;
@@ -12,7 +12,7 @@
     &:hover {
       ._img {
         transition: background-size ease-in 4s;
-        background-size: contain;
+        background-size: 101%;
       }
     }
     ._name {
