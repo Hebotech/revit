@@ -21,7 +21,7 @@ const productsView = ({ product, estilo, tipo }) => {
             <Breadcrumb estilo={estilo} tipo={tipo} product={product} />
             <h1 className='text-md-left text-center'>{product.name}</h1>
           </div>
-          <div className='col-6'>
+          <div className='col-md-6 col-12'>
             <Swiper spaceBetween={0} navigation slidesPerView={1}>
               {product.images.map((image, index) => (
                 <SwiperSlide key={index}>
@@ -34,7 +34,7 @@ const productsView = ({ product, estilo, tipo }) => {
               ))}
             </Swiper>
           </div>
-          <div className='col-4 align-self-start mt-5'>
+          <div className='col-md-4 col-12 align-self-start mt-5'>
             <h2>Acerca del producto</h2>
             <span
               dangerouslySetInnerHTML={{ __html: product.short_description }}

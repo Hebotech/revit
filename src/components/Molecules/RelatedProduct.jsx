@@ -33,7 +33,7 @@ function RelatedProduct({ id }) {
 
     case 'resolved':
       return (
-        <div key={fetchData.slug} className='col-2 my-5 text-center'>
+        <div key={fetchData.slug} className='col-2 col-md-12 my-5 text-center'>
           <Link href={`/productos/${fetchData.slug}`}>
             <a>
               <img
