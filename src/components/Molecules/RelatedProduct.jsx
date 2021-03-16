@@ -26,14 +26,14 @@ function RelatedProduct({ id }) {
   switch (asyncStatus) {
     case 'pending':
       return (
-        <div className='col-2 '>
+        <div className='col-2'>
           <img src='/brand/full-logo-black.svg' alt='' className='h-100' />
         </div>
       );
 
     case 'resolved':
       return (
-        <div key={fetchData.slug} className='col-2 col-md-12 my-5 text-center'>
+        <div key={fetchData.slug} className='col-md-2 col-6 my-5 text-center'>
           <Link href={`/productos/${fetchData.slug}`}>
             <a>
               <img

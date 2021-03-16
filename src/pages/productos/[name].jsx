@@ -16,7 +16,7 @@ const productsView = ({ product, estilo, tipo }) => {
         description={product.desctiption}
       />
       <div className='container-fluid '>
-        <div className='row m-0 px-5 align-items-center'>
+        <div className='row m-0 px-md-5 align-items-center'>
           <div className='col-12'>
             <Breadcrumb estilo={estilo} tipo={tipo} product={product} />
             <h1 className='text-md-left text-center'>{product.name}</h1>
@@ -34,7 +34,7 @@ const productsView = ({ product, estilo, tipo }) => {
               ))}
             </Swiper>
           </div>
-          <div className='col-md-4 col-12 align-self-start mt-5'>
+          <div className='col-md-4 col-12 align-self-start mt-5 text-md-left text-center'>
             <h2>Acerca del producto</h2>
             <span
               dangerouslySetInnerHTML={{ __html: product.short_description }}
