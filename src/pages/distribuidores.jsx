@@ -125,7 +125,6 @@ function distribuidores() {
                 key={company.coordinates[0]}
                 coordinates={company.coordinates}
                 renderChildrenInPortal={true}
-                onClick={() => setActiveMarker(index)}
               >
                 <CustomMarker company={company} index={index} />
               </Marker>
