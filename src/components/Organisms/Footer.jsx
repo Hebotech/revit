@@ -23,7 +23,7 @@ export default function Footer() {
   return (
     <footer className='container-fluid main-footer p-5'>
       <a
-        class='typeform-share button'
+        className='typeform-share button'
         href='https://form.typeform.com/to/zRvU6x86?typeform-medium=embed-snippet'
         data-mode='popover'
         style={{
@@ -47,7 +47,7 @@ export default function Footer() {
         target='_blank'
       >
         {' '}
-        <span class='icon'>
+        <span className='icon'>
           {' '}
           <svg
             width='24'

@@ -3,15 +3,15 @@ import Link from 'next/link';
 function Breadcrumb({ level, product, estilo, tipo }) {
   return (
     <nav aria-label='breadcrumb'>
-      <ol class='breadcrumb'>
-        <li class='breadcrumb-item'>
+      <ol className='breadcrumb'>
+        <li className='breadcrumb-item'>
           <Link href={`/todos`}>
             <a>TODOS</a>
           </Link>
         </li>
 
         {estilo ? (
-          <li class='breadcrumb-item'>
+          <li className='breadcrumb-item'>
             {level === 'estilo' ? (
               `ESTILO: ${estilo.toUpperCase()}`
             ) : (
@@ -23,7 +23,7 @@ function Breadcrumb({ level, product, estilo, tipo }) {
         ) : null}
 
         {tipo ? (
-          <li class='breadcrumb-item'>
+          <li className='breadcrumb-item'>
             {level === 'tipo' ? (
               `TIPO:${tipo.toUpperCase()}`
             ) : (
@@ -35,7 +35,7 @@ function Breadcrumb({ level, product, estilo, tipo }) {
         ) : null}
 
         {product ? (
-          <li class='breadcrumb-item active' aria-current='page'>
+          <li className='breadcrumb-item active' aria-current='page'>
             {product.name}
           </li>
         ) : null}
