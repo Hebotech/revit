@@ -1,6 +1,13 @@
-export default function HeroHeader() {
+export default function HeroHeader({ brandInfo }) {
   return (
-    <div className='row m-0 -hero-header align-items-center'>
+    <div
+      className='row m-0 -hero-header align-items-center'
+      style={{
+        backgroundImage: `url(${
+          brandInfo ? brandInfo.image.src : '/images/hero-header.jpg'
+        })`,
+      }}
+    >
       <div className='order-md-1 order-2  col-md-6 col-12 p-5 _information text-md-left justify-content-around align-items-center text-md-left text-center'>
         <small className='__feature'>Performance</small>
         <h1 className='__title'>La calidad que ya conoces</h1>
